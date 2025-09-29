@@ -13,16 +13,35 @@
   </head>
   <body>
     <!-- this is the start of content -->
+     <img src="broheem.jpg">
     <h1>
       Fortune Teller
     </h1>
     <form name="fortuneTeller" id="fortuneTeller" action="fortune.html">
       <label for="namefield">Name:</label>
       <input type="text" id="namefield" name="name" placeholder="your name" required>
+      Birthday: <input type="text" id="namefield" name="name" placeholder="your birthday" required>
+
       <br>
       <label for="questionfield">Question:</label>
       <input type="text" id="questionfield" name="question" placeholder="a yes or no question">
       <br>
+      <p>How old are you?</p>
+      5-15<input type="radio" name="q1">
+      16-66<input type="radio" name="q1">
+      67-342<input type="radio" name="q1">
+      <br>
+      <p>Where are you from?</p>
+      <select name="Continents">
+        <option value="Great">North America</option>
+        <option value="Great">South America</option>
+        <option value="Great">Europe</option>
+        <option value="Great">Africa</option>
+        <option value="Great">Asia</option>
+        <option value="Great">Antarctica</option>
+        <option value="Great">Australia</option>
+        </select>
+        <br>
       <input type="submit">
     </form>
     <div id="fortune"></div>
